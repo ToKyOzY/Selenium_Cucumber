@@ -1,3 +1,5 @@
+
+@All
 Feature: Amazon Search
  @gp1
   Scenario: TC01 Kullanıcı amazonda nutella aratır

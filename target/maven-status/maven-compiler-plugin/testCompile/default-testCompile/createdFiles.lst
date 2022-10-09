@@ -1,5 +1,10 @@
-runners\Runner.class
-utilities\Driver.class
+pages\GooglePage.class
+homeWorks\TrendyolStepDefinition.class
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
+pages\TrendyolPage.class
 utilities\ConfigReader.class
+runners\Runner.class
+utilities\ReusableMethods$1.class
+utilities\Driver.class
+utilities\ReusableMethods.class

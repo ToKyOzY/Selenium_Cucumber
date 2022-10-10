@@ -52,4 +52,16 @@ public class AmazonStepDefinition {
     public void sonuclarinIphoneIcerdiginiTestEder() {
         Assert.assertTrue(amazonPage.resultSearch.getText().contains("iphone"));
     }
+
+    @Then("Kullanici {string} icin arama  yapar")
+    public void kullaniciIcinAramaYapar(String searchingword) {
+        amazonPage.searchBox.sendKeys(searchingword,Keys.ENTER);
+    }
+
+    @And("Sonuclarin {string} icerdigini test eder")
+    public void sonuclarinIcerdiginiTestEder(String searchingWord) {
+        Assert.assertTrue(amazonPage.resultSearch.getText().contains(searchingWord));
+    }
+
+
 }

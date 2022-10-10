@@ -5,9 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class TutorialStepDefinition {
-    @Given("http:\\/\\/tutorialsninja.com\\/demo\\/index.php?route=common\\/home sayfasina gidiniz")
-    public void httpTutorialsninjaComDemoIndexPhpRouteCommonHomeSayfasinaGidiniz() {
-    }
+
 
     @Then("Phones & PDAs'a tiklayiniz")
     public void phonesPDAsATiklayiniz() {
@@ -31,5 +29,9 @@ public class TutorialStepDefinition {
 
     @And("Sepetteki ve sayfadaki ürünlerin doğru olduğunu karşilaştiriniz")
     public void sepettekiVeSayfadakiÜrünlerinDoğruOlduğunuKarşilaştiriniz() {
+    }
+
+    @Given("http://tutorialsninja.com/demo/index.php?route=common/home sayfasina gidiniz")
+    public void httpTutorialsninjaComDemoIndexPhpRouteCommonHomeSayfasinaGidiniz() {
     }
 }

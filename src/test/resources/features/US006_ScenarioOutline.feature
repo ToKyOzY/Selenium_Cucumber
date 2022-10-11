@@ -12,4 +12,6 @@ Feature: US006 kullanici amazonda istedigi kelimeleri aratir
       | selenium      | selenium             |
       | sql           | sql                  |
 
+#TestNG deki dataProvider kunllanimindaki gibi Cucumberda da Scenerio Outline kullaniriz
+  #Bu sekilde birden fazla kelimeyi tek seferde aratabiliriz
 

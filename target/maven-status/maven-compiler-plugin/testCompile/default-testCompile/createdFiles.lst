@@ -5,7 +5,10 @@ pages\TrendyolPage.class
 runners\Runner.class
 utilities\ReusableMethods$1.class
 utilities\Driver.class
+stepDefinitions\BlueRentACarStepDefinition.class
+stepDefinitions\Practice_TC_07steps.class
 pages\GooglePage.class
+pages\BlueRantaCarPage.class
 homeWorks\TrendyolStepDefinition.class
 utilities\ConfigReader.class
 homeWorks\TutorialStepDefinition.class

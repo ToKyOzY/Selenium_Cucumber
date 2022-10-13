@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@all", //2 tagi ayni anda çalistirmak istersek "@gp1 or @gp2" gibi..
-        dryRun = false
+        tags = "@practiceClick", //2 tagi ayni anda çalistirmak istersek "@gp1 or @gp2" gibi..
+        dryRun = true
 
         /*
         Runner class: Cucumber ın olmazsa olmazlarındandır.
